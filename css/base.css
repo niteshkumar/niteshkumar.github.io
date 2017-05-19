@@ -854,10 +854,68 @@ body a:hover
 
 	}
 	
-	.work-he
-	{
-		background: url('../images/covers/hr-cover.png');
-	}
+
+	
+	.work-metro
+{
+	background: url('../images/covers/ma-cover.png');
+	background-size: 100%;
+	height: 230px;
+}
+
+.work-he
+{
+	background: url('../images/covers/he-cover.png');
+	background-size: 100%;
+	height: 230px;
+}
+
+.work-pricing
+{
+	background: url('../images/covers/pricing-cover.png');
+	background-size: 100%;
+	height: 230px;
+}
+
+.work-jb
+{
+	background: url('../images/covers/jb-cover.png');
+	background-size: 100%;
+	height: 230px;
+}
+
+.work-ci
+{
+	background: url('../images/covers/ci-cover.png');
+	background-size: 100%;
+	height: 230px;
+}
+
+.work-ea
+{
+	background: url('../images/covers/ea-cover.png');
+	background-size: 100%;
+	height: 230px;
+}
+
+
+.work-jb
+{
+	background: url('../images/covers/jb-cover.png');
+	background-size: 100%;
+	height: 230px;
+}
+
+.work-framer
+{
+	background: url('../images/covers/framer-cover.png');
+	background-size: 100%;
+	height: 230px;
+}
+
+
+
+
     
     
     .right
