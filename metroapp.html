@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nitesh Kumar's Portfolio</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/fonts.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+  </head>
+  <body>
+
+          <div class="header">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="name"><a href="index.html">Nitesh Kumar</a></div>
+
+                <ul class="nav">
+                  <a href="mailto:hello@niteshk.com"><li>Email</li></a>
+                  <a href="https://medium.com/@thatnitesh" target="blank"><li>Blog</li></a>
+                  <a href="about"><li>About</li></a>
+                  <a href="index"><li>Work</li></a>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+          <div class="project-name">Designing a Delhi Metro app for tourists</div>
+          <div class="project-desc">
+            The following project was done as a design sprint exercise. I was given three data points and was asked to design an app using those data points in the most interesting and useful way.
+          </div>
+        </div>
+        </div>
+      </div>
+
+    <div class="ff-jb">
+      <img class="banner" src="images/banners/ma-banner.png">
+    </div>
+
+    <div class="story">
+      <div class="container">
+        <div class="row">
+
+            <div class="heading col-md-8 col-md-offset-2">Task Statement</div>
+            <p class="text col-md-8 col-md-offset-2">
+              Imagine that you are working directly with Delhi Metro Rail Corporation (DMRC). Through the deal you have access to the following:
+            </p>
+
+            <ul class="text col-md-8 col-md-offset-2">
+              <li>Real time running status of every metro train</li>
+              <li>Live crowdedness of every metro train</li>
+              <li>Pricing from any location to any location</li>
+            </ul>
+
+            <p class="text col-md-8 col-md-offset-2">
+              You have to design an Android or iOS app that makes use of these data points. 
+            </p>
+
+
+            <div class="heading col-md-8 col-md-offset-2">Initial Thoughts</div>
+            <p class="text col-md-8 col-md-offset-2">
+              New Delhi being the capital city of India, sees a lot of influx of people from all over the world. From tourists visiting nearby cities, to college students doing internships in the city, a lot of new people come to New Delhi every day.
+            </p>
+
+            <p class="text col-md-8 col-md-offset-2">
+              Now, everybody loves an economical and fast way to move around in the city. Nobody likes to hire expensive taxis and auto-rickshaws. Delhi Metro offers just that - an economical, fast and efficient mode of transport. But, for new people in the city and for people who’re visiting just for a day or two, understanding Delhi Metro can be an intimidating task. With so many stations, metro lines and just the vast expanse of a city, one could do with a little help with Metro, when going from point A to point B.
+            </p>
+
+            <p class="text col-md-8 col-md-offset-2">
+              This is what I set out to design. An easy and user-friendly way to use metro without having to understand the complexity of it, in the form of an iOS app.
+            </p>
+
+            <div class="heading col-md-8 col-md-offset-2">Research</div>
+            <p class="text col-md-8 col-md-offset-2">
+              Having travelled in Delhi Metro before, I was pretty familiar with the working of the stations, ticketing, platforms and the trains. Still, I wanted an in-depth view of it’s working. I wanted to research on how Delhi metro helps you plan a journey. 
+            </p>
+
+            <p class="text col-md-8 col-md-offset-2">
+              I visited the following page to understand how Delhi metro website shows the fare, timings, stations, distance etc.  
+            </p>
+
+            <p class="text col-md-8 col-md-offset-2">
+              <a href="http://www.delhimetrorail.com/metro-fares.aspx?fs=SAQY8wVbPA8lld&ts=SAQY8wVbPA8lld">http://www.delhimetrorail.com/metro-fares.aspx?fs=SAQY8wVbPA8lld&ts=SAQY8wVbPA8lld</a>
+            </p>
+
+            <p class="text col-md-8 col-md-offset-2">
+              I also explored the android apps offered by DMRC. With clunky interface, the experience these apps offered was sub-par and the flow was not streamlined at all. These apps just had a bunch of information options for users to view.  
+            </p>
+
+            <p class="text col-md-8 col-md-offset-2">
+              <a href="https://play.google.com/store/apps/details?id=com.sraoss.dmrc&hl=en">https://play.google.com/store/apps/details?id=com.sraoss.dmrc&hl=en</a>
+            </p>
+
+            <div class="heading col-md-8 col-md-offset-2">Approach and Understanding the User</div>
+            
+            <p class="text col-md-8 col-md-offset-2">
+              I started from the very basic need of a user - Getting from point A to point B.
+            </p>
+
+            <p class="text col-md-8 col-md-offset-2">
+              Now, the user might not know the nearest railway station, and they shouldn’t have to. Once the user enters his current location and the destination, the app must fetch the optimum metro route for the user,  starting from the nearest metro station. 
+            </p>
+
+            <p class="text col-md-8 col-md-offset-2">
+              Along with this, the user must be shown all the important information like station status, travel time, fare, crowdedness of trains, departure and arrival time, platform number, etc in the most contextual and streamlined way. 
+            </p>
+
+            <p class="text col-md-8 col-md-offset-2">
+              When designing screens and displaying information, the only guiding principle I follow is what would the user want to see at this step.
+            </p>
+
+
+            <div class="heading col-md-8 col-md-offset-2">Mapping the flow</div>
+            
+            <p class="text col-md-8 col-md-offset-2">
+              Flow text
+            </p>
+
+            <div class="col-md-8 col-md-offset-2">
+              <a class="fancybox-button" rel="fancybox-button" href="images/metro/metroflow.png"><img class="story-img img-gallery-item no-border" src="images/metro/metroflow.png"></a>
+            </div>
+
+            <div class="heading col-md-8 col-md-offset-2">Paper Wireframing</div>
+            
+            <p class="text col-md-8 col-md-offset-2">
+              Once I settled on a flow, I moved on to sketch the screens. I am a big fan of using the good old paper and pen for sketching and wireframing. 
+             </p>
+
+             <p class="text col-md-8 col-md-offset-2">
+              Here are the sketches of the main screens:
+             </p>
+
+             <div class="col-md-6 story-small-box">
+                <a class="fancybox-button" rel="fancybox-button" href="images/metro/wf1.jpg"><img class="story-img" src="images/metro/wf1.jpg"></a>
+            </div>
+            <div class="col-md-6 story-small-box">
+                <a class="fancybox-button" rel="fancybox-button" href="images/metro/wf2.jpg"><img class="story-img" src="images/metro/wf2.jpg"></a>           
+            </div>
+
+            <div class="heading col-md-8 col-md-offset-2">Visual Mockups</div>
+
+
+
+          <div class="row">
+
+            <div class="col-md-3 col-md-offset-2">
+              <a class="fancybox-button" rel="fancybox-button" href="images/metro/screen1.png"><img class="story-img img-gallery-item no-border" src="images/metro/screen1.png"></a>
+            </div>
+
+            <div class = "side-text col-md-5">
+
+              <p class="mini-heading">
+                Home screen
+               </p>
+              <p class="text">
+                This screen asks the user one simple question - Where do you want to go? Here the user can enter any destination that need not be a metro station.
+               </p>
+               <p class="text">
+                The map shows the current location of the user. Incase the user is new to city, the map can be really helpful.
+               </p>
+               <p class="text">
+                Once the user taps the input field, he’s taken to the next screen.
+               </p>
+            </div>
+
+          </div>
+
+
+          <div class="row">
+            <div class="col-md-3 col-md-offset-2">
+              <a class="fancybox-button" rel="fancybox-button" href="images/metro/screen2.png"><img class="story-img img-gallery-item no-border" src="images/metro/screen2.png"></a>
+            </div>
+            <div class = "side-text col-md-5">
+
+              <p class="mini-heading">
+                Destination
+               </p>
+              <p class="text">
+                Here the user enters the destination where he wants to go and hits enter (return).
+               </p>
+            </div>
+
+          </div>
+
+          <div class = "row">
+
+            <div class="col-md-3 col-md-offset-2">
+              <a class="fancybox-button" rel="fancybox-button" href="images/metro/screen3.png"><img class="story-img img-gallery-item no-border" src="images/metro/screen3.png"></a>
+            </div>
+            <div class = "side-text col-md-5">
+
+              <p class="mini-heading">
+                Metro Stations
+               </p>
+              <p class="text">
+                Once the user enters the destination, the app fetches the optimum metro route starting from the nearest metro station. 
+               </p>
+               <ul class="text">
+                <li>This view shows how far the nearest metro station is and the user can even navigate his way to it.</li>
+                <li>It also shows the status of the station. For example, the station might be closed due to construction. In that case it will show the next nearest station.</li>
+                <li>Since we have access to pricing from any to any other location, this view shows the fare and the journey time in the most visually comprehensible way.</li>
+                <li>When you click “See Metro Trains” buttons, you’re taken to the trains overlay.</li>
+               </ul>
+            </div>
+
+          </div>
+
+
+          <div class = "row">
+            <div class="col-md-3 col-md-offset-2">
+              <a class="fancybox-button" rel="fancybox-button" href="images/metro/screen4.png"><img class="story-img img-gallery-item no-border" src="images/metro/screen4.png"></a>
+            </div>
+            <div class = "side-text col-md-5">
+
+              <p class="mini-heading">
+                Trains Overlay
+               </p>
+              <p class="text">
+                This screen actually shows up as an overlay when the user taps the “See Metro Trains” button.
+               </p>
+               <ul class="text">
+                <li>It saves the user the trouble of another step and shows the list of trains as a horizontally scrollable, easy distinguishable cards.</li>
+                <li>A part of the next card is visible so the user knows that there are more items to scroll.</li>
+                <li>I used diffused shadows so that it gives the effect that the cards are hovering over the stations screen. </li>
+                <li>When you tap the easy accessible “X” button, the list of trains fades back and reveals the stations screen.</li>
+                <li>On tapping “start journey” on the card, the user is taken to the transit screen.</li>
+               </ul>
+            </div>
+
+          </div>
+
+            <div class="heading col-md-8 col-md-offset-2">User Interface Prototyping</div>
+            <p class="text col-md-8 col-md-offset-2">
+              I used Framer to put together a simple prototype of the entire experience. 
+            </p>
+
+
+
+            <div class = "video-container col-md-12">
+              <iframe src="https://www.youtube.com/embed/CHoZFctWIks?rel=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+
+            <p class="text col-md-8 col-md-offset-2">
+              Feel free to explore the Framer prototype <a href="https://framer.cloud/MuZKp">here</a>.
+            </p>
+
+
+
+
+        </div>
+
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <div class="project-nav">
+                <a  href="index" class="home-link">HOME</a>
+                <a href="he" class="proj-nav-btn next"><span class="next-text">NEXT</span><i class="fa fa-long-arrow-right"></i></a>
+                <a href="framerjs" class="proj-nav-btn prev"><i class="fa fa-long-arrow-left"></i><span class="prev-text">PREVIOUS</span></a>
+              </div>
+            </div>
+        </div>
+
+      </div>
+      
+      <div class="container">
+      <div class="row">
+        <div class="col-md-12 footer">
+          <div class = "social">
+            <a href="https://twitter.com/thatnitesh" target="blank">Twitter</a> 
+            <span class="social-sep">-</span>
+            <a href="https://medium.com/@thatnitesh" target="blank">Medium</a> 
+            <span class="social-sep">-</span>
+            <a href="https://www.instagram.com/thatnitesh/" target="blank">Instagram</a> 
+            <span class="social-sep">-</span>
+            <a href="https://in.linkedin.com/in/nitesh-kumar-86631925" target="blank">LinkedIn</a> 
+            <span class="social-sep">-</span>
+            <a href="mailto:hello@niteshk.com" target="blank">Email</a>
+
+            <br><br>
+
+             © 2017
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bottstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="fancybox/lib/jquery-1.10.1.min.js "></script>
+    <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js"></script>
+    <script type="text/javascript" src="fancybox/lib/fancybox-load.js"></script>
+
+  </body>
+</html>
