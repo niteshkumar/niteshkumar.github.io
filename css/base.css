@@ -624,6 +624,20 @@ body a:hover
 	box-sizing: border-box;
 }
 
+.hr
+{
+	height:0px;
+	border-bottom: 1px solid #eee;
+	margin: 30px 0px;
+}
+
+.subtext
+{
+	color: #757575;
+	font-size: 12px;
+}
+
+
 .social
 {
 	font-size: 14px;
